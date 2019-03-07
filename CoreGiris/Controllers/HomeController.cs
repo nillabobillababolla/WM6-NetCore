@@ -1,15 +1,25 @@
-﻿using System;
+﻿using CoreGiris.Models;
+using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using CoreGiris.Models;
 
 namespace CoreGiris.Controllers
 {
     public class HomeController : Controller
     {
+        List<Kisi> kisiler = new List<Kisi>()
+        {
+            new Kisi()
+            {
+                Ad = "Kamil",
+                Soyad = "Falan"
+            },
+            new Kisi()
+            {
+                Ad = "Hakkı",
+                Soyad = "Filan"
+            }
+        };
         public IActionResult Index()
         {
             return View();
@@ -18,8 +28,8 @@ namespace CoreGiris.Controllers
         public IActionResult About()
         {
             ViewData["Message"] = "Your application description page.";
-
-            return View();
+            ViewBag.Hello = "Hello World";
+            return View(kisiler);
         }
 
         public IActionResult Contact()
