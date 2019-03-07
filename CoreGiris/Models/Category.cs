@@ -9,12 +9,10 @@ namespace CoreGiris.Models
     {
         [Key]
         public int Id { get; set; }
-
         [Required]
         [StringLength(50)]
         [Column("KategoriAdi")]
         public string CategoryName { get; set; }
-
         public virtual ICollection<Product> Products { get; set; } = new HashSet<Product>();
     }
 }
