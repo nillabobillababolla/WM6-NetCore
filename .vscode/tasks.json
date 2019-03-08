@@ -1,15 +1,13 @@
 {
     "version": "2.0.0",
-    "tasks": [
-        {
-            "label": "build",
-            "command": "dotnet",
-            "type": "process",
-            "args": [
-                "build",
-                "${workspaceFolder}/CoreGiris/CoreGiris.csproj"
-            ],
-            "problemMatcher": "$msCompile"
-        }
-    ]
+    "tasks": [{
+        "label": "build",
+        "command": "dotnet",
+        "type": "process",
+        "args": [
+            "build",
+            "${workspaceFolder}/CoreIdentity/CoreIdentity.csproj"
+        ],
+        "problemMatcher": "$msCompile"
+    }]
 }

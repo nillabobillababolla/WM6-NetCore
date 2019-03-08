@@ -70,17 +70,6 @@ namespace CoreIdentity
                 options.SlidingExpiration = true;
             });
 
-            services.ConfigureApplicationCookie(options =>
-            {
-                // Cookie settings
-                options.Cookie.HttpOnly = true;
-                options.ExpireTimeSpan = TimeSpan.FromMinutes(30);
-
-                options.LoginPath = "/Identity/Account/Login";
-                options.AccessDeniedPath = "/Identity/Account/AccessDenied";
-                options.SlidingExpiration = true;
-            });
-
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
 
