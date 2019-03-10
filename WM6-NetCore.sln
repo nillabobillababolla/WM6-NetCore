@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreGiris", "CoreGiris\Core
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ders2", "Ders2", "{80A8FA4E-BDDC-41DE-AE0E-9CD9F00CCD2C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityCore", "IdentityCore\IdentityCore.csproj", "{D5CD1345-B92C-4138-9676-379580608A90}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityCore", "IdentityCore\IdentityCore.csproj", "{58EE15AC-BC19-4D42-8684-543AC6904E18}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,17 +21,17 @@ Global
 		{C0358F7C-8ACA-426C-ACD4-2D28F958B550}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0358F7C-8ACA-426C-ACD4-2D28F958B550}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0358F7C-8ACA-426C-ACD4-2D28F958B550}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D5CD1345-B92C-4138-9676-379580608A90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D5CD1345-B92C-4138-9676-379580608A90}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D5CD1345-B92C-4138-9676-379580608A90}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D5CD1345-B92C-4138-9676-379580608A90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58EE15AC-BC19-4D42-8684-543AC6904E18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58EE15AC-BC19-4D42-8684-543AC6904E18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58EE15AC-BC19-4D42-8684-543AC6904E18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58EE15AC-BC19-4D42-8684-543AC6904E18}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{C0358F7C-8ACA-426C-ACD4-2D28F958B550} = {E0B46C82-88F4-4F93-8586-28DCA3B626FF}
-		{D5CD1345-B92C-4138-9676-379580608A90} = {80A8FA4E-BDDC-41DE-AE0E-9CD9F00CCD2C}
+		{58EE15AC-BC19-4D42-8684-543AC6904E18} = {80A8FA4E-BDDC-41DE-AE0E-9CD9F00CCD2C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4FF3B252-91EF-4FEB-AA52-3B7157366A59}
