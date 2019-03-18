@@ -9,7 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Kuzey.Models\Kuzey.Models.csproj" />
+    <ProjectReference Include="..\Kuzey.Models\Kuzey.Models.csproj" PrivateAssets="All" />
   </ItemGroup>
 
 </Project>
